@@ -1,0 +1,163 @@
+
+/* .headerNav{
+    display: flex;
+    justify-content: flex-start;
+    
+} */
+.navbar{
+    background-color: #EB2464;
+    white-space: nowrap;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+}
+.navbar li{
+    color:white;
+    background-color:#EB2464;
+}
+h1{
+    font-size:4em;
+}
+h1,h3,h4{
+    font-family: 'Mogra', cursive;
+    color:#000;
+    margin: 0;
+    border-radius: 3%;
+}
+.headerNav h1 span{
+    color: #EB2464;
+}
+h3, h4{
+ padding: .5em; 
+ font-size:2em;
+}
+h3{
+    text-align: center;
+    text-decoration: underline; 
+}
+h4, .total{
+    color:white; 
+    text-shadow: 1px 1px 0 #196543;
+    text-decoration: underline;
+    font-size: 1.75em;
+    text-align: center;
+}
+.navbar li:hover{
+    color:black;
+    cursor: pointer;
+}
+ .cartContent, .cartList li{
+    display: inline-block;
+    clear: both;
+    color:white;
+    font-size: 1.25em;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul{
+    width: max-content;
+}
+
+ul li{
+    color:#196543;
+    font-size: 1em; 
+    list-style-type: none;
+    display: inline;
+    position: relative;
+    padding-right: 3%;
+} 
+
+li{
+    text-transform:capitalize;
+}
+
+.navbar{
+    margin-top: 3%;
+    text-align: center;
+    /* padding: 2px; */
+    /* width: 80vw; */
+    border-radius: 20px;
+}
+.navbar ul{
+    font-size:1em;
+    padding:10px;
+}
+.screenSplit{
+    display:flex;
+}
+
+section .checkout{
+    background-color:#EB2464;
+    /* margin-left: 10%; */
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+
+.apple, .banana, .blueberry, .grapes, .orange, .pear, .pepper, .carrot, .yellowsquash, .eggplant, .lettuce, .potato, .milk, .butter, .bread, .garlic, .cheese, .eggs{
+    width: 100%;
+    height: auto;
+   
+} 
+
+.grid{
+    display:grid;
+    max-width:100%;
+    padding-right: 1%;
+
+}
+/* Fruit Grid  */
+.apple, .peppers, .milk{
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 1;
+  
+}
+.banana, .carrot, .garlic{
+    grid-row: 1 / span 1;
+    grid-column: 2 / span 1;
+    
+}
+
+.orange, .yellowSquash, .butter{
+    grid-row: 2 / span 1;
+    grid-column: 1 / span 1;
+   
+}
+
+.blueberry, .eggplant, .bread{
+    grid-row: 2 span 1;
+    grid-column: 2 / span 1;
+    
+}
+.grapes, .lettuce, .cheese{
+    grid-row: 3/ span 1;
+    grid-column: 1 / span 1;
+}
+
+.pear, .potato, .egg{
+    grid-row: 3/ span 1;
+    grid-column: 2 / span 1;
+}
+
+i{
+    font-size: 4em;
+    color:white;
+    text-align: center;
+    text-shadow: 1px 1px 0 #196543;
+}
+
+.cartBkrnd{
+    color:white;
+}
+
+.checkout{
+    padding: 1em;
+    text-align: center;
+}
+
+@media only screen and (max-width: 350px){
+    h3, i,  h4.total{
+        font-size: 16px;
+    }
+}
