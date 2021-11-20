@@ -104,7 +104,7 @@ var cart = [];
 //store each item into shopping cart
 function addToCart(item){
     cart.push(item) 
-    addToPrice(item.price)
+    //addToPrice(item.price)
 }
 
 var allItems = []
